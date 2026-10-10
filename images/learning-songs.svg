@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="32" fill="#FFF2F0"/>
+  <!-- Musical notes & cute drum / xylophone -->
+  <g transform="translate(20, 20)">
+    <!-- Xylophone bar 1 -->
+    <rect x="10" y="55" width="60" height="12" rx="6" fill="#FF8C78"/>
+    <!-- Xylophone bar 2 -->
+    <rect x="15" y="40" width="50" height="11" rx="5.5" fill="#FFD66B"/>
+    <!-- Xylophone bar 3 -->
+    <rect x="20" y="26" width="40" height="10" rx="5" fill="#70C9F0"/>
+    <!-- Notes floating -->
+    <circle cx="25" cy="12" r="5" fill="#FF8C78"/>
+    <rect x="28" y="0" width="2.5" height="12" rx="1" fill="#FF8C78"/>
+    <circle cx="55" cy="8" r="5.5" fill="#70C9F0"/>
+    <rect x="58" y="-4" width="2.5" height="12" rx="1" fill="#70C9F0"/>
+    <path d="M 30 0 Q 45 -6 60 -4" fill="none" stroke="#FF8C78" stroke-width="3" stroke-linecap="round"/>
+    <!-- Cute mallet -->
+    <line x1="65" y1="65" x2="45" y2="45" stroke="#273653" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="43" cy="43" r="5" fill="#FFD66B"/>
+  </g>
+</svg>

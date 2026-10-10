@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Dani &amp; Haven | Kidz Corner with Haven</title>
+  <meta name="description" content="Get in touch with Dani Egalite and Haven for parent inquiries, creator collaborations, book questions, and educational partnerships.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo" aria-label="Kidz Corner with Haven — Home">
+        <img src="images/logo.svg" alt="Kidz Corner with Haven Logo" class="logo-img" width="190" height="48">
+      </a>
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="videos.html" class="nav-link">Watch Videos</a>
+        <a href="index.html#learning" class="nav-link">Learning Corner</a>
+        <a href="books.html" class="nav-link">The Book</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="index.html#parents" class="nav-link">For Parents</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube btn-sm">
+          <span>Watch on YouTube</span>
+        </a>
+        <button type="button" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-nav-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-drawer-header">
+      <img src="images/logo.svg" alt="Kidz Corner with Haven" width="160" height="40">
+      <button type="button" class="mobile-drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="videos.html" class="mobile-nav-link">Watch Videos</a>
+      <a href="books.html" class="mobile-nav-link">The Book</a>
+      <a href="about.html" class="mobile-nav-link">About Dani &amp; Haven</a>
+      <a href="contact.html" class="mobile-nav-link active">Contact</a>
+    </nav>
+  </aside>
+  <div class="mobile-drawer-backdrop" aria-hidden="true"></div>
+
+  <!-- Page Header -->
+  <section class="section" style="padding-top: calc(var(--header-height) + 40px); background: linear-gradient(180deg, #FFF9EF 0%, #FFF3D6 60%, #EBF7FD 100%);">
+    <div class="container text-center">
+      <span class="eyebrow eyebrow-coral">CONNECT WITH US</span>
+      <h1 style="margin-bottom: 16px;">Let’s Connect!</h1>
+      <p style="max-width: 680px; margin: 0 auto; font-size: 1.2rem;">
+        For parent inquiries, creator collaborations, and book-related questions, feel free to reach out.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- Contact Information -->
+        <div class="contact-info-card reveal-on-scroll">
+          <h3>Say Hello to Dani &amp; Haven</h3>
+          <p>
+            Whether you are a fellow parent, an educator, or an educational content partner, we welcome thoughtful questions and connections.
+          </p>
+
+          <ul class="contact-features-list">
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>Creator Collaborations &amp; Media</span>
+            </li>
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>School &amp; Classroom Growth Mindset Inquiries</span>
+            </li>
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>Children's Book Release Updates</span>
+            </li>
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>Song &amp; Nursery Rhyme Feedback</span>
+            </li>
+          </ul>
+
+          <div style="margin-top: 28px; padding: 20px; background-color: var(--color-cream); border-radius: var(--radius-md); border: 1px solid var(--color-border);">
+            <strong style="color: var(--color-navy); display: block; margin-bottom: 6px;">YouTube Community:</strong>
+            <p style="font-size: 0.95rem; margin-bottom: 12px; color: var(--color-navy-muted);">
+              You can also leave comments and interact with Haven's adventures directly on our verified YouTube channel.
+            </p>
+            <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" style="color: var(--color-coral); font-weight: 700;">
+              Visit @kidzcornerwithhaven on YouTube ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Accessible Contact Form -->
+        <div class="contact-form-card reveal-on-scroll">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="contactName" class="form-label">Parent / Adult Name *</label>
+              <input type="text" id="contactName" class="form-control" placeholder="e.g. Rachel Adams" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Email Address *</label>
+              <input type="email" id="contactEmail" class="form-control" placeholder="e.g. parent@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject" class="form-label">Subject</label>
+              <input type="text" id="contactSubject" class="form-control" placeholder="e.g. Book Inquiry, Collaboration, Video Question">
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message *</label>
+              <textarea id="contactMessage" class="form-control" placeholder="Share your message with Dani..." required></textarea>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="contactAdultVerify" required>
+              <label for="contactAdultVerify" class="checkbox-label">
+                I confirm that I am a parent, guardian, or educator (18+).
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <span>Send Message</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <!-- Status Alert Container -->
+            <div class="form-status-alert" id="contactStatus" role="alert"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="Kidz Corner with Haven" width="180" height="45" style="filter: brightness(1.2); margin-bottom: 16px;">
+          <p>An educational children's content brand by Dani Egalite featuring fun learning videos, songs, and growth mindset lessons.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigate</h5>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="videos.html" class="footer-link">Watch Videos</a></li>
+            <li><a href="books.html" class="footer-link">The Book</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Community</h5>
+          <ul class="footer-links">
+            <li><a href="index.html#parents" class="footer-link">For Parents</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+            <li><a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="footer-link">YouTube Channel ↗</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube btn-sm">
+            <span>Subscribe on YouTube</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; <span data-current-year>2026</span> Dani Egalite &bull; Kidz Corner with Haven. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

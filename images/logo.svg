@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8C78"/>
+      <stop offset="35%" stop-color="#FFD66B"/>
+      <stop offset="70%" stop-color="#70C9F0"/>
+      <stop offset="100%" stop-color="#C9B6F2"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE885"/>
+      <stop offset="100%" stop-color="#FFA827"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#273653" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Mascot Star & Rainbow Arc -->
+  <g transform="translate(10, 6)" filter="url(#softShadow)">
+    <!-- Rainbow arc behind star -->
+    <path d="M 12 56 A 26 26 0 0 1 58 56" fill="none" stroke="#A9E7C4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 17 56 A 21 21 0 0 1 53 56" fill="none" stroke="#FFD66B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 22 56 A 16 16 0 0 1 48 56" fill="none" stroke="#FF8C78" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- Star Character -->
+    <polygon points="35,10 40,24 55,24 43,33 47,47 35,38 23,47 27,33 15,24 30,24" fill="url(#starGrad)" stroke="#E59400" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Cute Face on Star -->
+    <circle cx="31" cy="28" r="2.2" fill="#273653"/>
+    <circle cx="39" cy="28" r="2.2" fill="#273653"/>
+    <circle cx="32" cy="27" r="0.8" fill="#FFFFFF"/>
+    <circle cx="40" cy="27" r="0.8" fill="#FFFFFF"/>
+    <!-- Blushing cheeks -->
+    <ellipse cx="27.5" cy="31" rx="2" ry="1.2" fill="#FF8C78" opacity="0.6"/>
+    <ellipse cx="42.5" cy="31" rx="2" ry="1.2" fill="#FF8C78" opacity="0.6"/>
+    <!-- Smile -->
+    <path d="M 32 32 Q 35 36 38 32" fill="none" stroke="#273653" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- Little sparkle -->
+    <polygon points="56,8 57.5,13 62,14.5 57.5,16 56,21 54.5,16 50,14.5 54.5,13" fill="#FFD66B"/>
+  </g>
+
+  <!-- Typography: Kidz Corner -->
+  <g transform="translate(82, 42)">
+    <!-- Shadow copy -->
+    <text x="1.5" y="1.5" font-family="'Fredoka', 'Baloo 2', 'Comfortaa', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#273653" opacity="0.1" letter-spacing="-0.5">Kidz Corner</text>
+    
+    <!-- Main text with letter colors -->
+    <text font-family="'Fredoka', 'Baloo 2', 'Comfortaa', -apple-system, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
+      <tspan fill="#FF8C78">K</tspan>
+      <tspan fill="#70C9F0">i</tspan>
+      <tspan fill="#FFD66B">d</tspan>
+      <tspan fill="#A9E7C4">z</tspan>
+      <tspan fill="#273653"> </tspan>
+      <tspan fill="#273653">C</tspan>
+      <tspan fill="#FF8C78">o</tspan>
+      <tspan fill="#70C9F0">r</tspan>
+      <tspan fill="#FFD66B">n</tspan>
+      <tspan fill="#A9E7C4">e</tspan>
+      <tspan fill="#C9B6F2">r</tspan>
+    </text>
+  </g>
+
+  <!-- Subtitle Badge: with Haven -->
+  <g transform="translate(84, 52)">
+    <rect x="0" y="0" width="112" height="20" rx="10" fill="#EBF7FD"/>
+    <circle cx="10" cy="10" r="4" fill="#FF8C78"/>
+    <text x="20" y="14" font-family="'Nunito', -apple-system, sans-serif" font-size="12" font-weight="800" fill="#273653" letter-spacing="0.5">WITH HAVEN</text>
+    <polygon points="102,6 103,9 106,10 103,11 102,14 101,11 98,10 101,9" fill="#FFD66B"/>
+  </g>
+</svg>

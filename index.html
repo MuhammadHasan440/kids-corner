@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kidz Corner with Haven | Songs, Stories &amp; Learning</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Explore Kidz Corner with Haven for fun educational songs, nursery rhymes, children's learning videos, and the inspiring power of YET.">
+  <meta name="author" content="Dani Egalite">
+  <meta property="og:title" content="Kidz Corner with Haven | Songs, Stories &amp; Learning">
+  <meta property="og:description" content="A joyful children's learning brand featuring educational songs, nursery rhymes, science discoveries, and growth mindset lessons by Dani Egalite &amp; Haven.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-composition.svg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Google Fonts: Fredoka (Headings) and Nunito (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. Header & Navigation
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="header-logo" aria-label="Kidz Corner with Haven — Home">
+        <img src="images/logo.svg" alt="Kidz Corner with Haven Logo" class="logo-img" width="190" height="48">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#videos" class="nav-link">Watch Videos</a>
+        <a href="#learning" class="nav-link">Learning Corner</a>
+        <a href="#book" class="nav-link">The Book</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#parents" class="nav-link">For Parents</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header CTA & Mobile Hamburger -->
+      <div class="header-actions">
+        <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube btn-sm" aria-label="Watch on YouTube (opens official channel)">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          <span>Watch on YouTube</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-nav-drawer" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-drawer-header">
+      <img src="images/logo.svg" alt="Kidz Corner with Haven" width="160" height="40">
+      <button type="button" class="mobile-drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="#hero" class="mobile-nav-link active">Home</a>
+      <a href="#videos" class="mobile-nav-link">Watch Videos</a>
+      <a href="#mindset" class="mobile-nav-link">The Power of YET</a>
+      <a href="#learning" class="mobile-nav-link">Learning Corner</a>
+      <a href="#book" class="mobile-nav-link">The Book</a>
+      <a href="#about" class="mobile-nav-link">About Dani &amp; Haven</a>
+      <a href="#parents" class="mobile-nav-link">For Parents &amp; Caregivers</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+    <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+      <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+      </svg>
+      <span>Subscribe on YouTube</span>
+    </a>
+  </aside>
+  <div class="mobile-drawer-backdrop" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       2. Hero Section
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left Column: Copy & Actions -->
+        <div class="hero-content reveal-on-scroll">
+          <span class="eyebrow eyebrow-coral">LEARN • SING • GROW</span>
+          <h1 class="hero-heading">Little Learners. <br><span class="highlight">Big Discoveries!</span></h1>
+          <p class="hero-text">
+            Welcome to Kidz Corner with Haven — a joyful place for kids to learn through songs, stories, nursery rhymes, and fun educational adventures.
+          </p>
+
+          <!-- Growth Mindset Highlight Badge -->
+          <div class="hero-yet-badge">
+            <span class="sparkle" aria-hidden="true">✨</span>
+            <span>Because you might not know it <strong>YET!</strong></span>
+          </div>
+
+          <!-- Hero Action CTAs -->
+          <div class="hero-actions">
+            <a href="#videos" class="btn btn-primary btn-lg">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="6,4 20,12 6,20"></polygon>
+              </svg>
+              <span>Watch Our Videos</span>
+            </a>
+            <a href="#book" class="btn btn-secondary btn-lg">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              <span>Discover the Book</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Illustrated Visual Composition -->
+        <div class="hero-visual-wrapper reveal-on-scroll">
+          <div class="hero-composition-card">
+            <img src="images/hero-composition.svg" alt="Playful children's learning world with video preview, storybooks, ABC blocks, and floating stars" class="hero-composition-img" width="600" height="520">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. Featured YouTube Videos Section
+       ========================================================================= -->
+  <section class="section videos-section" id="videos">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="eyebrow eyebrow-coral">OFFICIAL YOUTUBE VIDEOS</span>
+        <h2>Sing, Learn &amp; Have Fun!</h2>
+        <p>
+          Join Haven for songs, stories, and little learning adventures that make every day a chance to discover something new.
+        </p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="video-filter-bar reveal-on-scroll" role="tablist" aria-label="Video Categories">
+        <button type="button" class="filter-pill active" data-filter="all">All Videos</button>
+        <button type="button" class="filter-pill" data-filter="rhymes">🎶 Nursery Rhymes</button>
+        <button type="button" class="filter-pill" data-filter="science">🔬 Science &amp; Nature</button>
+        <button type="button" class="filter-pill" data-filter="learning">📖 Letters &amp; Numbers</button>
+        <button type="button" class="filter-pill" data-filter="mindset">✨ Growth Mindset</button>
+      </div>
+
+      <!-- Video Grid (Loaded Dynamically via JavaScript) -->
+      <div class="video-grid" id="videoGrid" aria-live="polite">
+        <!-- Rendered by script.js with cards for Muffin Man, Bacteria, Food Chain, Phonics, Numbers, YET Song -->
+      </div>
+
+      <!-- Channel Spotlight Callout -->
+      <div class="channel-cta-banner reveal-on-scroll">
+        <span class="eyebrow eyebrow-yellow">JOIN OUR FAMILY LEARNING ADVENTURE</span>
+        <h3>Explore More Videos on YouTube</h3>
+        <p>
+          New educational songs, science facts, and sing-alongs are uploaded regularly to our official channel. Subscribe to sing and learn with Haven!
+        </p>
+        <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube btn-lg">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+          <span>Visit @kidzcornerwithhaven on YouTube</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. Growth Mindset Section — The Power of YET
+       ========================================================================= -->
+  <section class="section mindset-section" id="mindset">
+    <div class="container mindset-container">
+      <div class="section-header reveal-on-scroll">
+        <span class="eyebrow eyebrow-lavender">A LITTLE WORD WITH BIG POWER</span>
+        <h2>I Can’t Do It... YET!</h2>
+        <p>
+          Sometimes learning feels difficult. But one little word can change the way we see every challenge.
+        </p>
+      </div>
+
+      <!-- Interactive Learning Activity Card -->
+      <div class="mindset-interactive-card reveal-on-scroll">
+        <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+
+        <p class="challenge-pills-label">Pick a Challenge Your Child Might Face:</p>
+        <div class="challenge-pills" id="challengePills">
+          <!-- Rendered by script.js: Tie shoes, Read big words, Ride a bike, Math puzzles, Whistle -->
+        </div>
+
+        <!-- The Transformation Stage -->
+        <div class="sentence-stage-box">
+          <div class="sentence-display">
+            <span id="sentenceStem">I can’t do it</span><span class="sentence-part-yet" id="sentenceYet" aria-hidden="true">YET! ✨</span>
+          </div>
+        </div>
+
+        <!-- Magic Action Button -->
+        <div class="magic-action-area">
+          <button type="button" class="btn btn-secondary btn-lg" id="magicYetBtn">
+            <span>Add a Little Magic ✨</span>
+          </button>
+          <button type="button" class="btn btn-outline" id="resetYetBtn" style="display: none;">
+            <span>Try Another Challenge ↺</span>
+          </button>
+        </div>
+
+        <!-- Encouraging Growth Message -->
+        <div class="encouragement-msg-box" id="encouragementBox" role="status" aria-live="polite">
+          Keep trying. You’re still learning!
+        </div>
+
+        <!-- Philosophy Cards -->
+        <div class="mindset-pillars">
+          <div class="mindset-pillar-card">
+            <div class="pillar-icon pillar-icon-yellow">🌱</div>
+            <h4>Mistakes Help Us Grow</h4>
+            <p>Every slip-up is simply your brain building new neural paths. Mistakes aren’t stop signs — they’re stepping stones.</p>
+          </div>
+          <div class="mindset-pillar-card">
+            <div class="pillar-icon pillar-icon-sky">🔄</div>
+            <h4>Practice Makes Progress</h4>
+            <p>Nobody is born knowing how to do everything. Taking one small step every day creates big breakthroughs over time.</p>
+          </div>
+          <div class="mindset-pillar-card">
+            <div class="pillar-icon pillar-icon-mint">💛</div>
+            <h4>Positive Self-Talk</h4>
+            <p>When Haven said "I can’t read it," mom added "YET." How we speak to ourselves shapes what we believe is possible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. Children's Book Section
+       ========================================================================= -->
+  <section class="section book-section" id="book">
+    <div class="container">
+      <div class="book-showcase-grid">
+        <!-- Left: 3D Book Illustration -->
+        <div class="book-visual-column reveal-on-scroll">
+          <div class="book-3d-wrapper">
+            <div class="book-3d-cover" title="The Power of YET by Dani Egalite — Concept Showcase">
+              <img src="images/book-cover.svg" alt="Cover of The Power of YET children's book concept by Dani Egalite, inspired by Haven" width="420" height="580">
+            </div>
+          </div>
+          <div class="book-notice-badge">
+            📘 Concept Showcase &amp; Story Origin • Upcoming Release
+          </div>
+        </div>
+
+        <!-- Right: Story Origin & Details -->
+        <div class="book-details-column reveal-on-scroll">
+          <span class="eyebrow eyebrow-coral">THE INSPIRATION BEHIND THE BOOK</span>
+          <h2>A Little Word. A Big Difference.</h2>
+          <p class="book-lead-text">
+            Inspired by a simple everyday moment at home, this story celebrates the power of perseverance, learning, and believing in what is possible.
+          </p>
+
+          <blockquote class="book-story-quote">
+            “One afternoon, Haven was trying to sound out a difficult sentence and said, ‘Mom, I can’t read it.’ I gently smiled and whispered, ‘...YET.’ That single word transformed frustration into curiosity.”
+            <cite>— Dani Egalite, Creator &amp; Mother of Four</cite>
+          </blockquote>
+
+          <p style="margin-bottom: 20px;">
+            Every child encounters something they can’t do — until they keep learning. Inspired by this little moment at home, this children's book celebrates the power of "yet" and reminds young readers that growth takes time, patience, and practice.
+          </p>
+
+          <!-- Book Key Highlights -->
+          <ul class="book-highlights-list">
+            <li class="book-highlight-item">
+              <span class="book-highlight-icon">✓</span>
+              <span><strong>Emotional Resilience:</strong> Helps children process frustration and replace defeat with optimism.</span>
+            </li>
+            <li class="book-highlight-item">
+              <span class="book-highlight-icon">✓</span>
+              <span><strong>Parent &amp; Child Bonding:</strong> Written with real language parents can weave into bedtime and homework routines.</span>
+            </li>
+            <li class="book-highlight-item">
+              <span class="book-highlight-icon">✓</span>
+              <span><strong>Authentic Inspiration:</strong> Co-created alongside Haven’s real childhood questions and discoveries.</span>
+            </li>
+          </ul>
+
+          <div class="book-action-row">
+            <a href="#about" class="btn btn-secondary">
+              <span>Read Dani &amp; Haven’s Story</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Book Inquiries &amp; Updates</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. Learning Corner Section
+       ========================================================================= -->
+  <section class="section learning-section" id="learning">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="eyebrow eyebrow-sky">EARLY LEARNING THEMES</span>
+        <h2>What Will We Learn Today?</h2>
+        <p>
+          From singing along to discovering new words, every little activity opens the door to something wonderful.
+        </p>
+      </div>
+
+      <!-- 4 Visual Thematic Panels -->
+      <div class="learning-categories-grid">
+        <!-- Panel 1: Songs & Nursery Rhymes -->
+        <article class="learning-card learning-card-songs reveal-on-scroll">
+          <div class="learning-card-icon-wrap">
+            <img src="images/learning-songs.svg" alt="Songs and Nursery Rhymes Icon" width="90" height="90">
+          </div>
+          <h3 class="learning-card-title">Songs &amp; Nursery Rhymes</h3>
+          <p class="learning-card-desc">
+            Sing along with familiar songs, playful rhythms, and musical learning that build memory, speech cadence, and pure joy.
+          </p>
+          <a href="#videos" class="learning-card-action">
+            <span>Explore Songs</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </article>
+
+        <!-- Panel 2: Letters & Early Reading -->
+        <article class="learning-card learning-card-letters reveal-on-scroll">
+          <div class="learning-card-icon-wrap">
+            <img src="images/learning-letters.svg" alt="Letters and Early Reading Icon" width="90" height="90">
+          </div>
+          <h3 class="learning-card-title">Letters &amp; Early Reading</h3>
+          <p class="learning-card-desc">
+            Discover letters, phonics sounds, new vocabulary words, and the excitement of taking first steps into reading confidence.
+          </p>
+          <a href="#videos" class="learning-card-action">
+            <span>Explore Letters</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </article>
+
+        <!-- Panel 3: Numbers & Discovery -->
+        <article class="learning-card learning-card-numbers reveal-on-scroll">
+          <div class="learning-card-icon-wrap">
+            <img src="images/learning-numbers.svg" alt="Numbers and Discovery Icon" width="90" height="90">
+          </div>
+          <h3 class="learning-card-title">Numbers &amp; Discovery</h3>
+          <p class="learning-card-desc">
+            Explore counting, numbers, science facts, nature food chains, and friendly bacteria riddles in everyday life.
+          </p>
+          <a href="#videos" class="learning-card-action">
+            <span>Explore Science</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </article>
+
+        <!-- Panel 4: Growth Mindset -->
+        <article class="learning-card learning-card-mindset reveal-on-scroll">
+          <div class="learning-card-icon-wrap">
+            <img src="images/learning-mindset.svg" alt="Growth Mindset Icon" width="90" height="90">
+          </div>
+          <h3 class="learning-card-title">Growth Mindset</h3>
+          <p class="learning-card-desc">
+            Celebrate curiosity, practice, perseverance, and the power of "YET!" to turn self-doubt into lifelong courage.
+          </p>
+          <a href="#mindset" class="learning-card-action">
+            <span>Explore Mindset</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. Meet Dani and Haven Section
+       ========================================================================= -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Visual Column -->
+        <div class="about-visual-column reveal-on-scroll">
+          <div class="about-illustration-card">
+            <img src="images/about-illustration.svg" alt="Artistic illustration of Dani Egalite and Haven reading an open pop-up book under a tree" width="500" height="450">
+          </div>
+        </div>
+
+        <!-- Content Column -->
+        <div class="about-content-column reveal-on-scroll">
+          <span class="eyebrow eyebrow-yellow">OUR HEARTFELT MISSION</span>
+          <h2>A Family Full of Curiosity</h2>
+          <p class="about-lead">
+            Behind Kidz Corner with Haven is Dani Egalite, a parent and creator turning everyday family moments into opportunities for learning, music, and imagination.
+          </p>
+
+          <div class="about-paragraphs">
+            <p>
+              Raising four children taught Dani that the best learning happens not through rigid lectures, but through shared laughter, playful rhymes, and curiosity sparked in the living room.
+            </p>
+            <p>
+              Featuring 9-year-old Haven’s natural curiosity and honest little-kid feedback, Kidz Corner brings learning into the everyday through songs, stories, and playful discoveries.
+            </p>
+          </div>
+
+          <!-- Creator Values -->
+          <div class="about-values-grid">
+            <div class="about-value-box">
+              <strong>Heartfelt &amp; Screen-Safe</strong>
+              <span>Gentle pacing, wholesome themes, and content parents can trust.</span>
+            </div>
+            <div class="about-value-box">
+              <strong>Real Kid Voice</strong>
+              <span>Haven’s honest perspective makes every song relatable and fun.</span>
+            </div>
+            <div class="about-value-box">
+              <strong>Mindset-First</strong>
+              <span>Embedding emotional confidence alongside early literacy and math.</span>
+            </div>
+            <div class="about-value-box">
+              <strong>Family Tested</strong>
+              <span>Rooted in real parenting experiences with four wonderful children.</span>
+            </div>
+          </div>
+
+          <a href="#videos" class="btn btn-primary btn-lg">
+            <span>Come Learn With Us</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. Parent & Caregiver Community Section
+       ========================================================================= -->
+  <section class="section parent-section" id="parents">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="eyebrow eyebrow-mint">FOR PARENTS &amp; EDUCATORS</span>
+        <h2>Growing Together, One Little Lesson at a Time</h2>
+        <p>
+          Parenting is full of little moments that become big lessons. Kidz Corner is here to make learning a little more joyful, one song and story at a time.
+        </p>
+      </div>
+
+      <div class="parent-grid">
+        <!-- Left: Actionable Tips for Parents -->
+        <div class="parent-tips-column reveal-on-scroll">
+          <h3 style="font-size: 1.5rem; margin-bottom: 12px; color: var(--color-navy);">
+            What is your little learner excited to discover?
+          </h3>
+          <p style="color: var(--color-navy-muted); margin-bottom: 20px;">
+            Here are three simple ways Dani uses Kidz Corner songs and growth mindset prompts at home:
+          </p>
+
+          <div class="parent-tips-list">
+            <div class="parent-tip-card">
+              <div class="tip-number">1</div>
+              <div>
+                <h4>Make "YET" a Family Habit</h4>
+                <p>When someone says "I can't do this," gently add "...YET!" Make it a warm game everyone joins in on.</p>
+              </div>
+            </div>
+
+            <div class="parent-tip-card">
+              <div class="tip-number">2</div>
+              <div>
+                <h4>Turn Chores into Sing-Alongs</h4>
+                <p>Rhythm and melody boost vocabulary retention and make routines like brushing teeth or tidying up delightful.</p>
+              </div>
+            </div>
+
+            <div class="parent-tip-card">
+              <div class="tip-number">3</div>
+              <div>
+                <h4>Celebrate the Effort, Not Just the Result</h4>
+                <p>Praise how hard their brain worked to try again. That builds lasting confidence that stays with them in school.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <span>Subscribe on YouTube</span>
+          </a>
+        </div>
+
+        <!-- Right: Parent Companion Graphic -->
+        <div class="parent-visual-column reveal-on-scroll">
+          <div class="parent-visual-card">
+            <img src="images/parent-illustration.svg" alt="Cozy morning parenting desk with notepad, coffee mug, and colorful children's drawing" width="400" height="320">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. Newsletter / Updates Section
+       ========================================================================= -->
+  <section class="section newsletter-section" id="newsletter">
+    <div class="container">
+      <div class="newsletter-box reveal-on-scroll">
+        <span class="eyebrow eyebrow-yellow" style="color: var(--color-navy); margin-bottom: 16px;">STAY IN TOUCH</span>
+        <h3>A Little More Learning in Your Inbox</h3>
+        <p>
+          Stay connected with new songs, learning adventures, and book release updates directly from Dani Egalite.
+        </p>
+
+        <!-- Newsletter Signup Form (Client-Validated & Transparent) -->
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="Enter parent or guardian email" required aria-label="Parent or guardian email">
+          <button type="submit" class="btn btn-secondary">
+            <span>Keep Me Updated</span>
+          </button>
+        </form>
+        <p class="newsletter-disclaimer">
+          🔒 For adults (18+) only. We respect family privacy and never share information. You can also follow all updates directly on our verified YouTube channel!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. Contact Section
+       ========================================================================= -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="eyebrow eyebrow-coral">GET IN TOUCH</span>
+        <h2>Let’s Connect!</h2>
+        <p>
+          For parent inquiries, creator collaborations, and book-related questions, feel free to reach out.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Contact Information & Details -->
+        <div class="contact-info-card reveal-on-scroll">
+          <h3>Say Hello to Dani &amp; Haven</h3>
+          <p>
+            Whether you have an idea for a song, a question about our upcoming children's book, or a collaboration request, we’d love to hear from fellow parents and educators!
+          </p>
+
+          <ul class="contact-features-list">
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>Creator Collaborations &amp; Media</span>
+            </li>
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>School, Library &amp; Educator Inquiries</span>
+            </li>
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>Children's Book Release Information</span>
+            </li>
+            <li class="contact-feature-item">
+              <span class="contact-feature-dot"></span>
+              <span>Video &amp; Nursery Rhyme Suggestions</span>
+            </li>
+          </ul>
+
+          <div style="margin-top: 24px; padding: 18px; background-color: var(--color-cream); border-radius: var(--radius-md); border: 1px solid var(--color-border);">
+            <strong style="color: var(--color-navy); display: block; margin-bottom: 4px;">Official Channel:</strong>
+            <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" style="color: var(--color-coral); font-weight: 700;">
+              youtube.com/@kidzcornerwithhaven ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Accessible Contact Form -->
+        <div class="contact-form-card reveal-on-scroll">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="contactName" class="form-label">Parent / Adult Name *</label>
+              <input type="text" id="contactName" class="form-control" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Email Address *</label>
+              <input type="email" id="contactEmail" class="form-control" placeholder="e.g. parent@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject" class="form-label">Subject</label>
+              <input type="text" id="contactSubject" class="form-control" placeholder="e.g. Book Inquiry, Video Question, Collaboration">
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message *</label>
+              <textarea id="contactMessage" class="form-control" placeholder="Share your message or question with Dani..." required></textarea>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="contactAdultVerify" required>
+              <label for="contactAdultVerify" class="checkbox-label">
+                I confirm that I am a parent, guardian, or educator (18+).
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <span>Send Message</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <!-- Status Alert Container -->
+            <div class="form-status-alert" id="contactStatus" role="alert"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="Kidz Corner with Haven" width="180" height="45" style="margin-bottom: 16px; filter: brightness(1.2);">
+          <p>
+            An educational children's content brand by Dani Egalite featuring fun learning videos, songs, nursery rhymes, and the inspiring growth mindset message of "YET!"
+          </p>
+          <div class="footer-motto">
+            “Little Learners. Big Discoveries. Endless Possibilities.”
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#videos" class="footer-link">Watch Videos</a></li>
+            <li><a href="#learning" class="footer-link">Learning Corner</a></li>
+            <li><a href="#mindset" class="footer-link">The Power of YET</a></li>
+            <li><a href="#book" class="footer-link">The Children's Book</a></li>
+          </ul>
+        </div>
+
+        <!-- Community Links -->
+        <div class="footer-col">
+          <h5>Community</h5>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">About Dani &amp; Haven</a></li>
+            <li><a href="#parents" class="footer-link">For Parents &amp; Caregivers</a></li>
+            <li><a href="#contact" class="footer-link">Contact &amp; Inquiries</a></li>
+            <li><a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="footer-link">Official YouTube Channel ↗</a></li>
+          </ul>
+        </div>
+
+        <!-- Channel Highlight -->
+        <div class="footer-col">
+          <div class="footer-youtube-box">
+            <h5 style="margin-bottom: 8px;">Official YouTube</h5>
+            <p>Subscribe for sing-alongs, educational adventures, and nursery rhyme favorites!</p>
+            <a href="https://www.youtube.com/@kidzcornerwithhaven" target="_blank" rel="noopener noreferrer" class="btn btn-youtube btn-sm" style="width: 100%;">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+              <span>@kidzcornerwithhaven</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span data-current-year>2026</span> Dani Egalite &bull; Kidz Corner with Haven. All rights reserved.
+        </div>
+        <div style="font-size: 0.85rem;">
+          Designed with love for little learners &bull; Educational children's brand
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       12. Responsive Video Modal Dialog
+       ========================================================================= -->
+  <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" aria-hidden="true"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Kidz Corner Video</h3>
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close video dialog">&times;</button>
+      </div>
+
+      <!-- Responsive 16:9 Video Embed Frame Container -->
+      <div class="modal-video-frame-wrap">
+        <iframe id="modalIframe" src="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <!-- Channel Fallback Notice -->
+      <div id="modalChannelNotice" class="modal-channel-notice" style="display: none;"></div>
+    </div>
+  </div>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

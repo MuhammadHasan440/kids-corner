@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="32" fill="#F4EEFD"/>
+  <!-- Growth mindset star & sprouting seedling -->
+  <g transform="translate(18, 18)">
+    <!-- Sprouting heart plant -->
+    <path d="M 42 75 L 42 50 Q 25 45 42 35 Q 60 45 42 50" fill="#A9E7C4"/>
+    <ellipse cx="42" cy="74" rx="22" ry="8" fill="#E2D4FA"/>
+
+    <!-- Glowing star on top with word YET -->
+    <polygon points="42,12 47,24 60,25 50,33 53,46 42,38 31,46 34,33 24,25 37,24" fill="#FFD66B" stroke="#FFA827" stroke-width="1.5"/>
+    <text x="42" y="33" font-family="'Fredoka', sans-serif" font-size="10" font-weight="900" fill="#273653" text-anchor="middle">YET</text>
+
+    <!-- Sparkle rays -->
+    <circle cx="15" cy="20" r="3" fill="#FF8C78"/>
+    <circle cx="70" cy="25" r="3" fill="#70C9F0"/>
+  </g>
+</svg>

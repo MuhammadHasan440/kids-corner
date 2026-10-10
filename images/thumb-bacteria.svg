@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bacBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5F8EE"/>
+      <stop offset="50%" stop-color="#A9E7C4"/>
+      <stop offset="100%" stop-color="#70C9F0"/>
+    </linearGradient>
+    <filter id="thumbShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#273653" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="640" height="360" fill="url(#bacBg)"/>
+  
+  <!-- Microscopic bubbles in background -->
+  <circle cx="80" cy="90" r="35" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="560" cy="120" r="50" fill="#FFFFFF" opacity="0.25"/>
+  <circle cx="280" cy="50" r="25" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="480" cy="300" r="40" fill="#FFFFFF" opacity="0.2"/>
+
+  <!-- Right side: Science Lab & Cute Bacteria Characters -->
+  <g transform="translate(360, 70)" filter="url(#thumbShadow)">
+    <!-- Magnifying Glass frame -->
+    <circle cx="150" cy="120" r="95" fill="#FFFFFF" stroke="#273653" stroke-width="8"/>
+    <!-- Magnifying Glass handle -->
+    <rect x="220" y="190" width="22" height="70" rx="10" transform="rotate(-45 220 190)" fill="#FF8C78" stroke="#273653" stroke-width="6"/>
+
+    <!-- Inside Magnifying Glass: Friendly Good Bacterium (Green/Mint) -->
+    <g transform="translate(100, 75)">
+      <!-- Body -->
+      <rect x="0" y="0" width="55" height="80" rx="27" fill="#66D394"/>
+      <!-- Eyes -->
+      <circle cx="18" cy="30" r="5" fill="#273653"/>
+      <circle cx="37" cy="30" r="5" fill="#273653"/>
+      <circle cx="20" cy="28" r="1.5" fill="#FFFFFF"/>
+      <circle cx="39" cy="28" r="1.5" fill="#FFFFFF"/>
+      <!-- Big friendly smile -->
+      <path d="M 20 45 Q 27 55 35 45" fill="none" stroke="#273653" stroke-width="3" stroke-linecap="round"/>
+      <!-- Rosy cheeks -->
+      <circle cx="12" cy="38" r="3.5" fill="#FF8C78" opacity="0.6"/>
+      <circle cx="43" cy="38" r="3.5" fill="#FF8C78" opacity="0.6"/>
+      <!-- Little superhero cape -->
+      <path d="M 0 35 L -15 65 L 5 55 Z" fill="#FFD66B"/>
+      <!-- Cute pill dots -->
+      <circle cx="15" cy="15" r="3" fill="#A9E7C4"/>
+      <circle cx="38" cy="62" r="3" fill="#A9E7C4"/>
+    </g>
+
+    <!-- Silly Sneezing Bad Bacterium (Purple/Grumpy) -->
+    <g transform="translate(170, 110)">
+      <!-- Spiky Body -->
+      <circle cx="20" cy="20" r="22" fill="#C9B6F2"/>
+      <!-- Spikes -->
+      <circle cx="0" cy="10" r="5" fill="#C9B6F2"/>
+      <circle cx="40" cy="12" r="5" fill="#C9B6F2"/>
+      <circle cx="8" cy="36" r="5" fill="#C9B6F2"/>
+      <circle cx="34" cy="34" r="5" fill="#C9B6F2"/>
+      <!-- Grumpy silly eyes -->
+      <line x1="12" y1="14" x2="18" y2="18" stroke="#273653" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="28" y1="18" x2="22" y2="14" stroke="#273653" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="15" cy="20" r="3" fill="#273653"/>
+      <circle cx="25" cy="20" r="3" fill="#273653"/>
+      <!-- Wobbly mouth -->
+      <path d="M 16 28 Q 20 25 24 28" fill="none" stroke="#273653" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Sparkling science stars -->
+    <polygon points="40,30 42,34 46,35 42,37 40,41 38,37 34,35 38,34" fill="#FFD66B"/>
+    <polygon points="230,60 232,64 236,65 232,67 230,71 228,67 224,65 228,64" fill="#FFD66B"/>
+  </g>
+
+  <!-- Left Side: Typography -->
+  <g transform="translate(40, 75)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="210" height="34" rx="17" fill="#273653"/>
+    <circle cx="17" cy="17" r="8" fill="#A9E7C4"/>
+    <text x="35" y="22" font-family="'Nunito', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">SCIENCE ADVENTURES</text>
+
+    <!-- Heading -->
+    <text x="0" y="85" font-family="'Fredoka', 'Baloo 2', sans-serif" font-size="44" font-weight="800" fill="#273653" letter-spacing="-0.5">
+      Good vs. Bad
+    </text>
+    <text x="0" y="135" font-family="'Fredoka', 'Baloo 2', sans-serif" font-size="44" font-weight="800" fill="#0E8A5E" letter-spacing="-0.5">
+      Bacteria!
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="175" font-family="'Nunito', sans-serif" font-size="18" font-weight="700" fill="#273653">
+      Microscopic Science Explained for Kids with Haven
+    </text>
+
+    <!-- Category Pill -->
+    <g transform="translate(0, 195)">
+      <rect x="0" y="0" width="160" height="32" rx="16" fill="#FFFFFF" filter="url(#thumbShadow)"/>
+      <text x="80" y="21" font-family="'Nunito', sans-serif" font-size="13" font-weight="800" fill="#0E8A5E" text-anchor="middle">🔬 EARLY SCIENCE</text>
+    </g>
+  </g>
+
+  <rect x="545" y="315" width="80" height="30" rx="6" fill="#273653" opacity="0.9"/>
+  <text x="585" y="335" font-family="'Nunito', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">EPISODE</text>
+</svg>

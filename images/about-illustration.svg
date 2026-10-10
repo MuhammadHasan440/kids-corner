@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9EF"/>
+      <stop offset="50%" stop-color="#EBF7FD"/>
+      <stop offset="100%" stop-color="#F2EEFC"/>
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#273653" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Gentle backdrop frame -->
+  <rect x="20" y="20" width="460" height="410" rx="36" fill="url(#aboutGrad)" stroke="#FFFFFF" stroke-width="6" filter="url(#aboutShadow)"/>
+
+  <!-- Sun with warm rays -->
+  <g transform="translate(400, 80)">
+    <circle cx="0" cy="0" r="32" fill="#FFE885" opacity="0.6"/>
+    <circle cx="0" cy="0" r="22" fill="#FFD66B"/>
+  </g>
+
+  <!-- Big Cozy Reading Tree -->
+  <g transform="translate(60, 100)">
+    <!-- Tree Trunk -->
+    <path d="M 120 280 C 110 210, 80 180, 70 120 C 100 130, 120 150, 140 180 C 160 140, 200 120, 220 110 C 200 160, 180 200, 170 280 Z" fill="#D6A46A"/>
+    <!-- Foliage / Cloud canopy -->
+    <circle cx="80" cy="90" r="65" fill="#A9E7C4" opacity="0.9"/>
+    <circle cx="160" cy="65" r="75" fill="#8CE0B0" opacity="0.9"/>
+    <circle cx="230" cy="95" r="60" fill="#A9E7C4" opacity="0.9"/>
+    <circle cx="150" cy="120" r="60" fill="#6FD69C" opacity="0.9"/>
+
+    <!-- Apples / Knowledge Stars in tree -->
+    <circle cx="110" cy="70" r="9" fill="#FF8C78"/>
+    <circle cx="180" cy="60" r="9" fill="#FFD66B"/>
+    <circle cx="210" cy="110" r="9" fill="#70C9F0"/>
+    <circle cx="140" cy="115" r="9" fill="#FF8C78"/>
+  </g>
+
+  <!-- Mom & Daughter Learning Together Vignette (Stylized, respectful, joyful silhouettes) -->
+  <g transform="translate(160, 210)" filter="url(#aboutShadow)">
+    <!-- Cozy picnic blanket / rug -->
+    <ellipse cx="90" cy="170" rx="140" ry="24" fill="#FFEAA7"/>
+
+    <!-- Open Giant Pop-Up Storybook between them -->
+    <g transform="translate(50, 105)">
+      <!-- Left Page -->
+      <polygon points="0,40 40,32 40,0 0,10" fill="#FFFFFF" stroke="#E2DAC9" stroke-width="2"/>
+      <!-- Right Page -->
+      <polygon points="40,32 80,40 80,10 40,0" fill="#FFF9EF" stroke="#E2DAC9" stroke-width="2"/>
+      <!-- Spine -->
+      <line x1="40" y1="0" x2="40" y2="35" stroke="#FF8C78" stroke-width="3"/>
+      <!-- Pop-Up Rainbow coming out of book! -->
+      <path d="M 15 15 A 25 25 0 0 1 65 15" fill="none" stroke="#FF8C78" stroke-width="4"/>
+      <path d="M 20 15 A 20 20 0 0 1 60 15" fill="none" stroke="#FFD66B" stroke-width="4"/>
+      <path d="M 25 15 A 15 15 0 0 1 55 15" fill="none" stroke="#70C9F0" stroke-width="4"/>
+      <circle cx="40" cy="-5" r="5" fill="#FFE885"/>
+    </g>
+
+    <!-- Dani (Mom) figure on left: seated with arm gesturing warmly toward book -->
+    <g transform="translate(0, 40)">
+      <!-- Head / Bun -->
+      <circle cx="25" cy="20" r="14" fill="#3D2B1F"/>
+      <circle cx="14" cy="14" r="8" fill="#3D2B1F"/>
+      <!-- Torso / Dress -->
+      <path d="M 15 34 C 15 30, 35 30, 35 34 L 45 110 L 0 110 Z" fill="#70C9F0"/>
+      <!-- Arm pointing to book -->
+      <path d="M 32 45 Q 55 60 62 85" fill="none" stroke="#F6D2B2" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="63" cy="85" r="4" fill="#F6D2B2"/>
+    </g>
+
+    <!-- Haven (9-year-old daughter) figure on right: seated attentively smiling at book -->
+    <g transform="translate(130, 60)">
+      <!-- Head with happy ponytail -->
+      <circle cx="22" cy="18" r="12" fill="#3D2B1F"/>
+      <ellipse cx="32" cy="16" rx="7" ry="5" fill="#3D2B1F"/>
+      <circle cx="26" cy="14" r="3" fill="#FF8C78"/> <!-- Hair ribbon -->
+      <!-- Torso / Sweater -->
+      <path d="M 14 30 C 14 26, 30 26, 30 30 L 38 90 L 4 90 Z" fill="#FF8C78"/>
+      <!-- Arm resting on book -->
+      <path d="M 16 40 Q 2 60 10 75" fill="none" stroke="#F6D2B2" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Floating Inspirational Badges around illustration -->
+  <!-- Badge: Inspired by Haven -->
+  <g transform="translate(45, 60)" filter="url(#aboutShadow)">
+    <rect x="0" y="0" width="145" height="34" rx="17" fill="#FFFFFF"/>
+    <circle cx="17" cy="17" r="7" fill="#FFD66B"/>
+    <text x="32" y="21" font-family="'Nunito', sans-serif" font-size="11" font-weight="800" fill="#273653">HONEST CURIOSITY</text>
+  </g>
+
+  <!-- Badge: 4 Kids • 1 Mission -->
+  <g transform="translate(300, 340)" filter="url(#aboutShadow)">
+    <rect x="0" y="0" width="165" height="34" rx="17" fill="#273653"/>
+    <circle cx="17" cy="17" r="7" fill="#A9E7C4"/>
+    <text x="32" y="21" font-family="'Nunito', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF">PARENT CREATED</text>
+  </g>
+</svg>

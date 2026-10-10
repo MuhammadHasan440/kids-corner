@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 580" width="100%" height="100%">
+  <defs>
+    <!-- Sky & Cover Gradients -->
+    <linearGradient id="bookBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#273653"/>
+      <stop offset="60%" stop-color="#3A4D73"/>
+      <stop offset="100%" stop-color="#556994"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEFA8"/>
+      <stop offset="40%" stop-color="#FFD66B"/>
+      <stop offset="100%" stop-color="#FFA827"/>
+    </linearGradient>
+    <linearGradient id="spineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A2538"/>
+      <stop offset="70%" stop-color="#273653"/>
+      <stop offset="100%" stop-color="#3A4D73"/>
+    </linearGradient>
+    <filter id="coverShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="8" dy="16" stdDeviation="16" flood-color="#273653" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Book Container with 3D Spine and Pages Effect -->
+  <g filter="url(#coverShadow)">
+    <!-- Right side paper pages edges -->
+    <rect x="382" y="24" width="22" height="532" rx="4" fill="#F4EDE0" stroke="#E2DAC9" stroke-width="1.5"/>
+    <line x1="388" y1="28" x2="388" y2="550" stroke="#D5CBB8" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="394" y1="28" x2="394" y2="550" stroke="#D5CBB8" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="400" y1="28" x2="400" y2="550" stroke="#D5CBB8" stroke-width="1" stroke-dasharray="3,3"/>
+
+    <!-- Main Front Cover -->
+    <rect x="18" y="16" width="370" height="548" rx="16" fill="url(#bookBg)"/>
+
+    <!-- Spine highlight line -->
+    <rect x="18" y="16" width="20" height="548" rx="8" fill="url(#spineGrad)" opacity="0.6"/>
+    <line x1="38" y1="16" x2="38" y2="564" stroke="#FFE885" stroke-width="1" opacity="0.25"/>
+
+    <!-- Golden decorative border frame -->
+    <rect x="34" y="32" width="338" height="516" rx="12" fill="none" stroke="#FFD66B" stroke-width="2" opacity="0.45"/>
+    <rect x="40" y="38" width="326" height="504" rx="8" fill="none" stroke="#FFD66B" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+  </g>
+
+  <!-- Illustration on Book Cover -->
+  <!-- Night Sky Stars -->
+  <g transform="translate(40, 40)" opacity="0.9">
+    <!-- Crescent Moon -->
+    <path d="M 280 60 A 30 30 0 0 1 310 90 A 36 36 0 1 0 280 60 Z" fill="#FFD66B"/>
+    
+    <!-- Sparkles and stars -->
+    <circle cx="60" cy="50" r="2" fill="#FFE885"/>
+    <circle cx="120" cy="30" r="2.5" fill="#FFE885"/>
+    <circle cx="200" cy="45" r="1.8" fill="#FFE885"/>
+    <circle cx="260" cy="35" r="2" fill="#FFE885"/>
+    <circle cx="90" cy="95" r="1.5" fill="#FFE885"/>
+    <circle cx="170" cy="90" r="2.5" fill="#FFE885"/>
+
+    <!-- Star bursts -->
+    <polygon points="50,130 52,135 57,137 52,139 50,144 48,139 43,137 48,135" fill="#FFD66B"/>
+    <polygon points="270,140 272,144 276,146 272,148 270,152 268,148 264,146 268,144" fill="#FFD66B"/>
+  </g>
+
+  <!-- Giant Glowing "YET" Star Constellation in Center -->
+  <g transform="translate(205, 290)">
+    <!-- Glow aura -->
+    <circle cx="0" cy="0" r="65" fill="#FFD66B" opacity="0.18"/>
+    <circle cx="0" cy="0" r="50" fill="#FFD66B" opacity="0.25"/>
+
+    <!-- Golden Star -->
+    <polygon points="0,-48 14,-14 48,-14 20,8 30,42 0,22 -30,42 -20,8 -48,-14 -14,-14" fill="url(#goldText)" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Word YET inside star -->
+    <text x="0" y="7" font-family="'Fredoka', 'Baloo 2', sans-serif" font-size="20" font-weight="900" fill="#273653" text-anchor="middle" letter-spacing="1">YET</text>
+  </g>
+
+  <!-- Illustrated Book Stack Ladder reaching toward the star -->
+  <g transform="translate(150, 360)">
+    <!-- Book 1 (Coral) -->
+    <rect x="-35" y="65" width="180" height="24" rx="5" fill="#FF8C78"/>
+    <text x="55" y="81" font-family="'Nunito', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">KEEP TRYING</text>
+    
+    <!-- Book 2 (Mint) -->
+    <rect x="-15" y="38" width="140" height="23" rx="5" fill="#A9E7C4"/>
+    <text x="55" y="54" font-family="'Nunito', sans-serif" font-size="11" font-weight="800" fill="#273653" text-anchor="middle">ONE STEP AT A TIME</text>
+    
+    <!-- Book 3 (Sky Blue) -->
+    <rect x="5" y="12" width="100" height="22" rx="5" fill="#70C9F0"/>
+    <text x="55" y="27" font-family="'Nunito', sans-serif" font-size="10" font-weight="800" fill="#273653" text-anchor="middle">PRACTICE</text>
+
+    <!-- Little kid silhouette looking up with joy -->
+    <g transform="translate(15, -45)">
+      <!-- Head with ponytail -->
+      <circle cx="16" cy="12" r="10" fill="#FFD66B"/>
+      <!-- Ponytail -->
+      <ellipse cx="6" cy="10" rx="6" ry="4" fill="#FF8C78"/>
+      <!-- Torso -->
+      <path d="M 8 22 C 8 20, 24 20, 24 22 L 27 45 L 5 45 Z" fill="#C9B6F2"/>
+      <!-- Reaching Arm toward Star -->
+      <path d="M 22 24 L 38 4" stroke="#FFD66B" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="39" cy="3" r="3.5" fill="#FFD66B"/>
+    </g>
+  </g>
+
+  <!-- Typography on Book Cover -->
+  <!-- Top Category / Eyebrow -->
+  <g transform="translate(205, 82)">
+    <rect x="-120" y="0" width="240" height="22" rx="11" fill="#FFFFFF" opacity="0.15"/>
+    <text x="0" y="15" font-family="'Nunito', sans-serif" font-size="11" font-weight="800" fill="#A9E7C4" text-anchor="middle" letter-spacing="1.5">A GROWTH MINDSET STORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(205, 140)">
+    <text x="0" y="0" font-family="'Fredoka', 'Baloo 2', cursive, sans-serif" font-size="23" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">THE POWER OF</text>
+    
+    <!-- YET in huge, colorful, warm letters with glow -->
+    <text x="0" y="70" font-family="'Fredoka', 'Baloo 2', cursive, sans-serif" font-size="78" font-weight="900" fill="url(#goldText)" text-anchor="middle" letter-spacing="4">YET!</text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(205, 235)">
+    <text x="0" y="0" font-family="'Nunito', sans-serif" font-size="13" font-weight="700" fill="#E2F4FD" text-anchor="middle" letter-spacing="0.4">When "I Can't" Becomes "I Can't... YET!"</text>
+  </g>
+
+  <!-- Author & Creator credit at bottom -->
+  <g transform="translate(205, 495)">
+    <rect x="-135" y="-6" width="270" height="36" rx="18" fill="#1C273C" opacity="0.8"/>
+    <text x="0" y="10" font-family="'Fredoka', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Dani Egalite</text>
+    <text x="0" y="24" font-family="'Nunito', sans-serif" font-size="10" font-weight="700" fill="#FFD66B" text-anchor="middle" letter-spacing="0.5">INSPIRED BY HAVEN</text>
+  </g>
+
+  <!-- Concept / Preview Ribbon in Corner -->
+  <g transform="translate(285, 16)">
+    <polygon points="10,0 100,0 100,90" fill="#FF8C78" opacity="0.95"/>
+    <text x="76" y="32" font-family="'Nunito', sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" transform="rotate(45 76 32)" letter-spacing="1">PREVIEW</text>
+  </g>
+</svg>

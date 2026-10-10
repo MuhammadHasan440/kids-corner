@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="phonicsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F0"/>
+      <stop offset="50%" stop-color="#FFD1CA"/>
+      <stop offset="100%" stop-color="#FF8C78"/>
+    </linearGradient>
+    <filter id="thumbShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#273653" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="360" fill="url(#phonicsBg)"/>
+
+  <!-- Starry floating letters in background -->
+  <text x="50" y="320" font-family="'Fredoka', sans-serif" font-size="64" fill="#FFFFFF" opacity="0.3">A</text>
+  <text x="310" y="60" font-family="'Fredoka', sans-serif" font-size="52" fill="#FFFFFF" opacity="0.25">B</text>
+  <text x="580" y="320" font-family="'Fredoka', sans-serif" font-size="58" fill="#FFFFFF" opacity="0.3">C</text>
+
+  <!-- Right side: Dancing Alphabet Blocks Scene -->
+  <g transform="translate(370, 75)" filter="url(#thumbShadow)">
+    <!-- Letter A Block -->
+    <g transform="translate(20, 110) rotate(-10)">
+      <rect x="0" y="0" width="85" height="85" rx="18" fill="#FFD66B"/>
+      <rect x="6" y="6" width="73" height="73" rx="14" fill="#FFF9EF"/>
+      <text x="42" y="58" font-family="'Fredoka', sans-serif" font-size="52" font-weight="900" fill="#FF8C78" text-anchor="middle">A</text>
+    </g>
+
+    <!-- Letter B Block -->
+    <g transform="translate(120, 100) rotate(12)">
+      <rect x="0" y="0" width="85" height="85" rx="18" fill="#70C9F0"/>
+      <rect x="6" y="6" width="73" height="73" rx="14" fill="#FFF9EF"/>
+      <text x="42" y="58" font-family="'Fredoka', sans-serif" font-size="52" font-weight="900" fill="#273653" text-anchor="middle">B</text>
+    </g>
+
+    <!-- Letter C Block on Top -->
+    <g transform="translate(70, 15)">
+      <rect x="0" y="0" width="85" height="85" rx="18" fill="#A9E7C4"/>
+      <rect x="6" y="6" width="73" height="73" rx="14" fill="#FFF9EF"/>
+      <text x="42" y="58" font-family="'Fredoka', sans-serif" font-size="52" font-weight="900" fill="#273653" text-anchor="middle">C</text>
+      <!-- Sparkle on C -->
+      <polygon points="75,10 77,15 82,16 77,18 75,23 73,18 68,16 73,15" fill="#FFA827"/>
+    </g>
+  </g>
+
+  <!-- Left Side: Typography -->
+  <g transform="translate(40, 75)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#273653"/>
+    <circle cx="17" cy="17" r="8" fill="#FF8C78"/>
+    <text x="35" y="22" font-family="'Nunito', sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">LETTERS &amp; READING</text>
+
+    <!-- Heading -->
+    <text x="0" y="85" font-family="'Fredoka', 'Baloo 2', sans-serif" font-size="44" font-weight="800" fill="#273653" letter-spacing="-0.5">
+      ABC Phonics &amp;
+    </text>
+    <text x="0" y="135" font-family="'Fredoka', 'Baloo 2', sans-serif" font-size="44" font-weight="800" fill="#B8321B" letter-spacing="-0.5">
+      Dancing Letters!
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="175" font-family="'Nunito', sans-serif" font-size="18" font-weight="700" fill="#273653">
+      Letter Sounds, First Words &amp; Reading Joy
+    </text>
+
+    <!-- Category Pill -->
+    <g transform="translate(0, 195)">
+      <rect x="0" y="0" width="165" height="32" rx="16" fill="#FFFFFF" filter="url(#thumbShadow)"/>
+      <text x="82" y="21" font-family="'Nunito', sans-serif" font-size="13" font-weight="800" fill="#B8321B" text-anchor="middle">📖 EARLY READING</text>
+    </g>
+  </g>
+
+  <rect x="545" y="315" width="80" height="30" rx="6" fill="#273653" opacity="0.9"/>
+  <text x="585" y="335" font-family="'Nunito', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">SING-ALONG</text>
+</svg>

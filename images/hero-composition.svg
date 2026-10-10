@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="blobGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2F4FD"/>
+      <stop offset="50%" stop-color="#FFF3D6"/>
+      <stop offset="100%" stop-color="#F2EEFC"/>
+    </linearGradient>
+    <linearGradient id="rainbow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8C78"/>
+      <stop offset="33%" stop-color="#FFD66B"/>
+      <stop offset="66%" stop-color="#70C9F0"/>
+      <stop offset="100%" stop-color="#C9B6F2"/>
+    </linearGradient>
+    <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70C9F0"/>
+      <stop offset="100%" stop-color="#4AA8D4"/>
+    </linearGradient>
+    <linearGradient id="goldBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE072"/>
+      <stop offset="100%" stop-color="#FFB326"/>
+    </linearGradient>
+    <filter id="heroShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#273653" flood-opacity="0.12"/>
+    </filter>
+    <filter id="elementShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#273653" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Big playful backdrop blob -->
+  <path d="M 120 70 C 240 -10, 480 20, 540 140 C 600 260, 560 420, 440 480 C 320 540, 160 510, 80 410 C 0 310, 0 150, 120 70 Z" fill="url(#blobGrad1)" opacity="0.85"/>
+
+  <!-- Floating playful background clouds -->
+  <g opacity="0.9">
+    <path d="M 60 160 Q 75 140 95 145 Q 115 130 140 145 Q 160 145 165 165 Q 170 185 150 190 Q 135 195 75 195 Q 55 190 60 160 Z" fill="#FFFFFF" filter="url(#elementShadow)"/>
+    <path d="M 430 70 Q 445 50 465 55 Q 485 40 510 55 Q 530 55 535 75 Q 540 95 520 100 Q 505 105 445 105 Q 425 100 430 70 Z" fill="#FFFFFF" filter="url(#elementShadow)"/>
+  </g>
+
+  <!-- Giant Rainbow Arc in Background -->
+  <g transform="translate(180, 70)" opacity="0.85">
+    <path d="M 20 220 A 130 130 0 0 1 260 220" fill="none" stroke="#FF8C78" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 34 220 A 116 116 0 0 1 246 220" fill="none" stroke="#FFD66B" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 48 220 A 102 102 0 0 1 232 220" fill="none" stroke="#A9E7C4" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 62 220 A 88 88 0 0 1 218 220" fill="none" stroke="#70C9F0" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 76 220 A 74 74 0 0 1 204 220" fill="none" stroke="#C9B6F2" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main Hero Card: Video Preview Style Slate -->
+  <g transform="translate(110, 140)" filter="url(#heroShadow)">
+    <!-- White Card Base -->
+    <rect x="0" y="0" width="380" height="250" rx="28" fill="#FFFFFF"/>
+    <!-- Inner Screen Window -->
+    <rect x="14" y="14" width="352" height="222" rx="20" fill="#273653"/>
+    
+    <!-- Video scene inside screen -->
+    <!-- Sunny sky gradient in screen -->
+    <rect x="14" y="14" width="352" height="150" rx="20" fill="#E8F6FD"/>
+    <!-- Rolling green hills -->
+    <path d="M 14 140 Q 90 90 190 125 T 366 120 L 366 180 L 14 180 Z" fill="#A9E7C4"/>
+    <path d="M 14 150 Q 120 120 240 145 T 366 140 L 366 236 L 14 236 Z" fill="#8CE0B0"/>
+    
+    <!-- Mini Bakery / Learning cottage on hill -->
+    <rect x="165" y="95" width="50" height="40" rx="6" fill="#FFF9EF"/>
+    <polygon points="155,98 190,68 225,98" fill="#FF8C78"/>
+    <rect x="180" y="112" width="20" height="23" rx="3" fill="#FFD66B"/>
+    <!-- Flag: Kidz Corner -->
+    <line x1="190" y1="68" x2="190" y2="48" stroke="#273653" stroke-width="2.5"/>
+    <polygon points="190,50 216,56 190,64" fill="#FFD66B"/>
+
+    <!-- Central Glowing Play Button -->
+    <circle cx="190" cy="125" r="32" fill="#FF8C78" filter="url(#elementShadow)"/>
+    <circle cx="190" cy="125" r="28" fill="#FF8C78" stroke="#FFFFFF" stroke-width="3"/>
+    <polygon points="182,111 206,125 182,139" fill="#FFFFFF"/>
+
+    <!-- Bottom Video Bar -->
+    <rect x="14" y="186" width="352" height="50" rx="0" fill="#1C273C"/>
+    <!-- Mini avatar -->
+    <circle cx="44" cy="211" r="15" fill="#FFD66B"/>
+    <text x="44" y="215" font-family="'Fredoka', sans-serif" font-size="14" font-weight="800" fill="#273653" text-anchor="middle">H</text>
+    <text x="70" y="207" font-family="'Fredoka', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Kidz Corner with Haven</text>
+    <text x="70" y="222" font-family="'Nunito', sans-serif" font-size="11" font-weight="600" fill="#A9E7C4">Learn • Sing • Grow • Official Channel</text>
+    <!-- Red Subscribe Badge -->
+    <rect x="275" y="200" width="76" height="22" rx="11" fill="#FF0000"/>
+    <text x="313" y="215" font-family="'Nunito', sans-serif" font-size="10" font-weight="800" fill="#FFFFFF" text-anchor="middle">YOUTUBE</text>
+  </g>
+
+  <!-- Floating Element 1: "YET!" Golden Growth Mindset Star Badge -->
+  <g transform="translate(420, 100)" filter="url(#elementShadow)">
+    <circle cx="44" cy="44" r="42" fill="url(#goldBadge)"/>
+    <circle cx="44" cy="44" r="37" fill="#FFF9EF"/>
+    <text x="44" y="38" font-family="'Nunito', sans-serif" font-size="10" font-weight="800" fill="#FF8C78" text-anchor="middle" letter-spacing="1">THE POWER OF</text>
+    <text x="44" y="58" font-family="'Fredoka', 'Baloo 2', sans-serif" font-size="22" font-weight="800" fill="#273653" text-anchor="middle">YET!</text>
+    <!-- Little star sparkles -->
+    <polygon points="12,18 14,23 19,25 14,27 12,32 10,27 5,25 10,23" fill="#FFA827"/>
+    <polygon points="76,60 78,63 82,64 78,65 76,68 74,65 70,64 74,63" fill="#FFA827"/>
+  </g>
+
+  <!-- Floating Element 2: Stack of Colorful Learning Books (Bottom Left) -->
+  <g transform="translate(40, 320)" filter="url(#elementShadow)">
+    <!-- Book 1 (Coral) -->
+    <rect x="10" y="55" width="105" height="22" rx="6" fill="#FF8C78"/>
+    <rect x="18" y="58" width="90" height="16" rx="3" fill="#FFFFFF"/>
+    <text x="60" y="70" font-family="'Nunito', sans-serif" font-size="10" font-weight="800" fill="#FF8C78" text-anchor="middle">STORIES</text>
+    <!-- Book 2 (Mint) -->
+    <rect x="18" y="32" width="98" height="22" rx="6" fill="#A9E7C4"/>
+    <rect x="25" y="35" width="85" height="16" rx="3" fill="#FFFFFF"/>
+    <text x="65" y="47" font-family="'Nunito', sans-serif" font-size="10" font-weight="800" fill="#273653" text-anchor="middle">SCIENCE</text>
+    <!-- Book 3 (Lavender) -->
+    <rect x="14" y="10" width="102" height="22" rx="6" fill="#C9B6F2"/>
+    <rect x="22" y="13" width="88" height="16" rx="3" fill="#FFFFFF"/>
+    <text x="63" y="25" font-family="'Nunito', sans-serif" font-size="10" font-weight="800" fill="#273653" text-anchor="middle">SONGS</text>
+    <!-- Little green bookmark ribbon -->
+    <path d="M 98 10 L 98 38 L 92 33 L 86 38 L 86 10 Z" fill="#FFD66B"/>
+  </g>
+
+  <!-- Floating Element 3: Wooden Building Blocks A-B-C (Bottom Right) -->
+  <g transform="translate(450, 340)" filter="url(#elementShadow)">
+    <!-- Block 1 -->
+    <rect x="10" y="35" width="46" height="46" rx="10" fill="#FFD66B"/>
+    <rect x="14" y="39" width="38" height="38" rx="8" fill="#FFF9EF"/>
+    <text x="33" y="66" font-family="'Fredoka', sans-serif" font-size="24" font-weight="800" fill="#FF8C78" text-anchor="middle">A</text>
+    <!-- Block 2 -->
+    <rect x="52" y="35" width="46" height="46" rx="10" fill="#70C9F0"/>
+    <rect x="56" y="39" width="38" height="38" rx="8" fill="#FFF9EF"/>
+    <text x="75" y="66" font-family="'Fredoka', sans-serif" font-size="24" font-weight="800" fill="#273653" text-anchor="middle">B</text>
+    <!-- Block 3 on top -->
+    <rect x="32" y="0" width="46" height="46" rx="10" fill="#A9E7C4"/>
+    <rect x="36" y="4" width="38" height="38" rx="8" fill="#FFF9EF"/>
+    <text x="55" y="31" font-family="'Fredoka', sans-serif" font-size="24" font-weight="800" fill="#273653" text-anchor="middle">C</text>
+  </g>
+
+  <!-- Musical Notes Floating in air -->
+  <g transform="translate(80, 80)">
+    <!-- Note 1 -->
+    <circle cx="16" cy="30" r="7" fill="#70C9F0"/>
+    <rect x="20" y="10" width="3.5" height="20" rx="1.5" fill="#70C9F0"/>
+    <circle cx="34" cy="25" r="7" fill="#70C9F0"/>
+    <rect x="38" y="5" width="3.5" height="20" rx="1.5" fill="#70C9F0"/>
+    <polygon points="20,10 41,5 41,10 20,15" fill="#70C9F0"/>
+  </g>
+  <g transform="translate(480, 220)">
+    <!-- Note 2 -->
+    <circle cx="20" cy="26" r="6" fill="#C9B6F2"/>
+    <rect x="23" y="8" width="3" height="18" rx="1.5" fill="#C9B6F2"/>
+    <path d="M 26 8 Q 36 6 34 16" fill="none" stroke="#C9B6F2" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Little Smiling Pencil (Top Right) -->
+  <g transform="translate(360, 25) rotate(25)" filter="url(#elementShadow)">
+    <polygon points="12,0 0,22 24,22" fill="#FFE885"/>
+    <polygon points="9,0 0,22 6,22" fill="#D49942"/>
+    <polygon points="12,0 7,9 17,9" fill="#273653"/>
+    <rect x="0" y="22" width="24" height="60" fill="#FFD66B"/>
+    <rect x="0" y="22" width="7" height="60" fill="#F4C642"/>
+    <rect x="0" y="82" width="24" height="12" fill="#C9B6F2"/>
+    <rect x="0" y="94" width="24" height="18" rx="4" fill="#FF8C78"/>
+    <!-- Pencil cute face -->
+    <circle cx="9" cy="48" r="1.8" fill="#273653"/>
+    <circle cx="17" cy="48" r="1.8" fill="#273653"/>
+    <path d="M 11 54 Q 13 58 15 54" fill="none" stroke="#273653" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+</svg>
